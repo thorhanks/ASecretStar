@@ -1,19 +1,33 @@
-﻿
-
-
-
-
-html
+﻿html
 {
-	background-color: #FAFAFA;
+
 }
 
 body
 {
-	min-width: 980px;
-	width: 80%;
-	margin: 70px auto 0 auto;
 	padding: 0 0 0 0;
+}
+	body .container
+	{
+		width: 960px;
+		margin: 50px auto 0 auto;
+	}
+
+a
+{
+	color: #C22557;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+h1, h2, h3
+{
+	font-weight: normal;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 .clear
@@ -21,109 +35,106 @@ body
 	clear: both;
 }
 
-.imgFrame
+
+nav
 {
-	display: inline-block;
-	padding: 10px;
-	background-color: #FFFFFF;
-	border: 1px solid #C7C7C7;
-	
-	-webkit-box-shadow:  0px 0px 3px 3px #CFCFCF;
-	box-shadow:  0px 0px 3px 3px #CFCFCF;
+	text-align: right;
+	margin: 0 0 -15px 0;
+	font-size: 18px;
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: #646464;
+	visibility: hidden;
 }
+	nav ul
+	{
+		margin: 0 0 0 0;
+		padding: 0;
+	}
+		nav ul li
+		{
+			display: inline;
+			margin: 0 0 0 50px;
+			padding: 0;
+		}
+		
+		nav ul li:hover
+		{
+			color: #B49CB5;
+			cursor: pointer;
+		}
 
 
 
 header
 {
+	margin: 0 0 40px 0;
+	white-space: nowrap;
 }
-
-	nav
-	{
-		float: right;
-	}
-	
-		nav ul
-		{
-			margin: 0 0 0 0;
-			padding: 0 0 0 0;
-		}
-		
-			nav ul li
-			{
-				float: left;
-				margin: 0 0 0 60px;
-				padding: 0 0 0 0;
-			}
-
 	#logo
 	{
-		float: left;
+		display: inline-block;
 		height: 100px;
 		width: 240px;
-		margin: 10px 0 0 0;
+		margin: 0 0 0 0;
+		vertical-align: top;
 	}
 	
-	header .content
+	header .photo
 	{
-		padding: 45px 0 0 28%;
-		white-space: nowrap;
+		display: inline-block;
+		margin: 30px 0 0 20px;
 	}
-	
-		header .photo
+		header .photo .frame
 		{
 			display: inline-block;
+			padding: 10px;
+			background-color: #FFFFFF;
+			border: 1px solid #C7C7C7;
+			z-index: 10000;
+			-webkit-box-shadow:  0px 0px 3px 3px #CFCFCF;
+					box-shadow:  0px 0px 3px 3px #CFCFCF;
 		}
-	
-			header .imgFrame
-			{
-				z-index: 10000;
-			}
-	
-				header .imgFrame img
-				{
-					display: block;
-					border: 1px solid #C7C7C7;
-				}
-				
-			header .photo .shadow
+			header .photo .frame img
 			{
 				display: block;
-				margin: -5px 0 0 -10px;
+				border: 1px solid #C7C7C7;
 			}
-		
-		header .content h1
+
+		header .photo .shadow
 		{
-			margin: 40px 0 0 2%;
-			display: inline-block;
-			width: 65%;
-			vertical-align: top;
-			white-space: normal;
-			font-size: 36px;
-			font-weight: normal;
-			text-align: center;
-			color: #646464;
-			font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-			
+			display: block;
+			margin: -5px 0 0 -25px;
 		}
-			
-			header .content .flourish1
-			{
-				margin: 0 0 18px 0;
-			}
-			
-			header .content .flourish2
-			{
-				margin: 18px 0 0 0;
-			}
 		
-	
+	header h1
+	{
+		display: inline-block;
+		margin: 70px 0 0 10px;
+		vertical-align: top;
+		white-space: normal;
+		font-size: 34px;
+		font-weight: normal;
+		text-align: center;
+		color: #535353;
+	}
+		header h1 .flourish1
+		{
+			margin: 0 0 18px 0;
+		}
+		
+		header h1 .flourish2
+		{
+			margin: 18px 0 0 0;
+		}
+
+
+
 	#strip
 	{
 		position: absolute;
 		width: 100%;
 		height: 280px;
-		top: 128px;
+		top: 102px;
 		left: 0;
 		z-index: -1;
 		
@@ -139,14 +150,240 @@ header
 		background: linear-gradient(to bottom,  #fcfcfc 0%,#e3e3e3 100%); /* W3C */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#e3e3e3',GradientType=0 ); /* IE6-9 */
 	}
-	
-	
-	
-	
-	
-	#widthTest
+
+
+
+section
+{
+}
+	section h2
 	{
-		width: 1024px;
-		
-		background-color: gray;
+		color: #535353;
+		margin: 0 0 20px 0;
+		padding: 0;
 	}
+	
+	section .callOut
+	{
+		display: inline-block;
+		white-space: nowrap;
+		padding: 13px 18px;
+		border: 1px solid #CAC8C8;
+		border-radius: 15px;
+	}
+		section .callOut .left
+		{
+			display: inline-block;
+			padding: 0 20px 0 0;
+		}
+			section .callOut .frame
+			{
+				padding: 5px;
+				margin: 6px 0 10px 0;
+				background-color: #FFF;
+				border: 1px solid #B49CB5;
+			}
+
+			section .callOut .left a
+			{
+				margin: 10px 0 0 0;
+			}
+
+		section .callOut .right
+		{
+			display: inline-block;
+			vertical-align: top;
+			font-size: 14px;
+			white-space: normal;
+			text-align: justify;
+			width: 210px;
+			color: #555;
+		}
+			section .callOut .right h3
+			{
+				margin: 0 0 5px 0;
+				padding: 0;
+				font-weight: normal;
+				font-size: 20px;
+				color: #535353;
+			}
+			
+			
+	section .video
+	{
+		display: inline-block;
+		vertical-align: top;
+		margin: 6px 0 0 80px;
+		padding: 4px 4px 0 4px;
+		background-color: #E0E0E0;
+		border: 1px solid #B49CB5;
+	}
+	
+	
+	section .about
+	{
+		display: inline-block;
+	}
+		section .about .frame
+		{
+			display: inline-block;
+			padding: 5px;
+			background-color: #FFF;
+			border: 1px solid #B49CB5;
+			-webkit-box-shadow:  0px 0px 3px 3px #CFCFCF;
+					box-shadow:  0px 0px 3px 3px #CFCFCF;
+		}
+		
+		section .about p
+		{
+			display: inline-block;
+			margin: 0 0 0 20px;
+			vertical-align: top;
+			color: #555;
+			width: 360px;
+			text-align: justify;
+		}
+		
+		section .upcoming
+		{
+			display: inline-block;
+			vertical-align: top;
+			margin: 0 0 0 80px;
+			width: 355px;
+		}
+			section .upcoming .box
+			{
+				padding: 15px 15px;
+				border: 1px solid #CAC8C8;
+			}
+			
+			section .upcoming h2
+			{
+				margin: 0 0 15px 0;
+			}
+		
+			section .upcoming table
+			{
+				width: 100%;
+				font-size: 14px;
+			}
+				section .upcoming table th
+				{
+					color: #6B6B6B;
+					text-align: left;
+				}
+				
+				section .upcoming table td
+				{
+					font-style: italic;
+					color: #838383;
+				}
+				
+				section .upcoming table .topSpace th
+				{
+					padding-top: 20px;
+				}
+				
+				section .upcoming table th.sideSpace
+				{
+					padding-right: 10px;
+				}
+
+.divider
+{
+	margin: 90px 0;
+}
+	.divider .left
+	{
+		display: inline-block;
+		border-bottom: 1px solid #B49CB5;
+		width: 400px;
+		height: 1px;
+	}
+	
+	.divider .right
+	{
+		display: inline-block;
+		border-bottom: 1px solid #B49CB5;
+		width: 400px;
+		height: 1px;
+	}
+	
+	.divider img
+	{
+		margin: 0 15px;
+	}
+
+
+.footerLine
+{
+	width: 100%;
+	height: 2px;
+	margin: 100px 0 3px 0;
+	background: #39324D;
+}	
+
+footer
+{
+	padding: 50px 0 200px 0;
+	width: 100%;
+	background: #39324D;
+	color: #FFF;
+}
+	footer .container
+	{
+		width: 960px;
+		margin: 0 auto 0 auto;
+	}
+	
+	footer .quotes
+	{
+		display: inline-block;
+		width: 480px;
+		margin: 0 80px 0 0;
+		padding: 0 80px 0 0;
+		border-right: 1px solid #FFF;
+	}
+		
+		footer .quotes .quote
+		{
+			font-style: italic;
+		}
+		
+		footer .quotes .source
+		{
+			text-align: right;
+		}
+		
+	footer .contact
+	{
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+		footer .contact h2
+		{
+			margin: 0 0 20px 0;
+			padding: 0 0 0 0;
+		}
+		
+		footer .contact a
+		{
+			color: #D6829D;
+		}
+		
+		footer .contact .social
+		{
+			margin: 20px 0 20px 0;
+		}
+			footer .contact .social img
+			{
+				margin: 0 10px 0 0;
+			}
+		
+		footer .contact .copy
+		{
+			margin: 0 0 0 0;
+			color: #E4E4E4;
+			font-size: 11px;
+		}
