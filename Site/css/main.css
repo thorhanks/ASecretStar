@@ -183,6 +183,11 @@ section
 				background-color: #FFF;
 				border: 1px solid #B49CB5;
 			}
+			
+			section .callOut:hover .frame
+			{
+				background-color: #39324D;
+			}
 
 			section .callOut .left a
 			{
