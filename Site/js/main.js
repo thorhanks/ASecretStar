@@ -9,7 +9,7 @@
 	};
 	quotes[1] =
 	{
-		quote: "&quot;Powerful. Inspriational. Amazing. Krystyne is an amazing woman.&quot;",
+		quote: "&quot;Powerful. Inspirational. Amazing. Krystyne is an amazing woman.&quot;",
 		source: "- Judy Jackman",
 	};
 	quotes[2] =

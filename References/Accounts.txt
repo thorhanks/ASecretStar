@@ -1,3 +1,6 @@
 Squarespace
 	pass: stargazer42
 	
+Godaddy
+	Usname: kfaleksandr
+	Pass: Shootingstar7
