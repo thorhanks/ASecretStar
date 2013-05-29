@@ -36,6 +36,13 @@ h1, h2, h3
 }
 
 
+table th,
+table td
+{
+	vertical-align: top;
+}
+
+
 nav
 {
 	text-align: right;
@@ -308,9 +315,9 @@ section
 					padding-top: 20px;
 				}
 				
-				section .upcoming table th.sideSpace
+				section .upcoming table .sideSpace
 				{
-					padding-right: 10px;
+					padding-left: 10px;
 				}
 
 .divider
