@@ -68,3 +68,78 @@ Testimonials
 "Powerful. Inspriational. Amazing. Krystyne is an amazing woman." -Judy Jackman
 
 "I teach Sunday school, and I was studying for my lesson right before. It was about anger and forgiveness. I began in the bible, but the next thing I knew, God brought me to Krystyne's book. I read out of it the next Sunday morning, and it had such an amazing impact. This book will change lives." -Pat Barnett
+
+
+
+
+
+
+
+
+
+
+
+<!--
+								<tr class="topSpace">
+									<th>June 2</th>
+									<th class="sideSpace">First Baptist Keynote Speaker</th>
+								</tr>
+								<tr>
+									<td></td>
+									<td class="sideSpace">Interview with Dr. Howie Batson</td>
+								</tr>
+								
+								<tr class="topSpace">
+									<th>June 4</th>
+									<th class="sideSpace">Speaking to Canyon Rotary Club</th>
+								</tr>
+								<tr>
+									<td>12:00pm</td>
+									<td class="sideSpace">First United Bank Center<br/>Buffalo Room</td>
+								</tr>
+								
+								<tr class="topSpace">
+									<th>June 6</th>
+									<th class="sideSpace">Austin Middle School Assembly</th>
+								</tr>
+								<tr>
+									<td></td>
+									<td class="sideSpace">Guest Speaker on "Being an Author, and Being a Star."</td>
+								</tr>
+								
+								<tr class="topSpace">
+									<th>June 8</th>
+									<th class="sideSpace">Book Signing at Roasters Coffee</th>
+								</tr>
+								<tr>
+									<td></td>
+									<td class="sideSpace">on Georgia st. Bring Your Book!</td>
+								</tr>
+								
+								<tr class="topSpace">
+									<th>June 16</th>
+									<th class="sideSpace">Lion's Club Keynote Speaker</th>
+								</tr>
+								<tr>
+									<td></td>
+									<td class="sideSpace">Second Baptist Church in Amarillo</td>
+								</tr>
+								
+								<tr class="topSpace">
+									<th>June 20</th>
+									<th class="sideSpace">Amarillo Rotary Keynote Speaker</th>
+								</tr>
+								<tr>
+									<td>12:00pm</td>
+									<td class="sideSpace">At the Amarillo Club</td>
+								</tr>
+								
+								<tr class="topSpace">
+									<th>Aug 3rd</th>
+									<th class="sideSpace">Book Signing</th>
+								</tr>
+								<tr>
+									<td>12-2pm</td>
+									<td class="sideSpace">Canyon Library</td>
+								</tr>
+								-->
