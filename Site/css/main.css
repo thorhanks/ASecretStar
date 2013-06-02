@@ -35,6 +35,11 @@ h1, h2, h3
 	clear: both;
 }
 
+.nowrap
+{
+	white-space: nowrap;
+}
+
 
 table th,
 table td
